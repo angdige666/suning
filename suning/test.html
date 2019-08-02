@@ -1,0 +1,114 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>函数测试</title>
+	<style>
+		/*#box {
+			transition: scale(1.1);
+			transform: all .8s;
+			cursor: pointer;
+		}*/
+	</style>
+</head>
+<body>
+	
+<div id="box">
+	
+</div>
+	
+
+
+</body>
+</html>
+<script src="js/jquery-1.8.3.js"></script>
+<script src="js/public.js"></script>
+<script>
+
+	var box = document.getElementById('box');
+
+	window.onload = function() {
+		new youLike({
+			width:1490,
+			height:1000,
+			num:5,
+			img:{
+				width:260,
+				height:260
+			},
+			data:
+			[
+				[
+					{
+						"src":"image/youLike02.jpg",
+						"title":"农夫山泉 饮用水550ml*28瓶/箱",
+						"price":"39.90",
+						"findSimi":"找相似"
+					}
+				],
+				[
+					{
+						"self":"自营",
+						"src":"image/youLike03.jpg",
+						"title":"伊利 安慕希希腊风味酸牛奶原味205g*12盒/礼盒装",
+						"price":"39.90",
+						"findSimi":"找相似",
+						"smallLabel":["大聚惠","领劵169元","免邮"]
+					}
+				],
+				[
+					{
+						"self":"自营",
+						"src":"image/youLike04.jpg",
+						"title":"蒙牛 红谷 谷粒早餐牛奶饮品250ml×12盒",
+						"price":"39.90",
+						"findSimi":"找相似"
+					}
+				],
+				[
+					{
+						"self":"自营",
+						"src":"image/youLike05.jpg",
+						"title":"伊利 纯牛奶 礼盒装 250ml*24盒（新老包装随机发货）",
+						"price":"39.90",
+						"findSimi":"找相似",
+						"smallLabel":["大聚惠","领劵169元","免邮"]
+					}
+				],
+				[
+					{
+						"self":"自营",
+						"src":"image/youLike01.jpg",
+						"title":"中裕 ZHONGYU 金丝鸡蛋挂面 600g山东面条定量包装方便速食凉面筋道爽滑凉面炸酱面粮油类中裕出品",
+						"price":"39.90",
+						"findSimi":"找相似",
+						"smallLabel":["大聚惠","领劵169元","免邮"]
+					}
+				],
+				[
+					{
+						"self":"自营",
+						"src":"image/youLike03.jpg",
+						"title":"农夫山泉1",
+						"price":"39.90",
+						"findSimi":"找相似",
+						"smallLabel":["大聚惠","领劵169元","免邮"]
+					}
+				],
+				[
+					{
+						"self":"自营",
+						"src":"image/youLike02.jpg",
+						"title":"农夫山泉1",
+						"price":"39.90",
+						"findSimi":"找相似",
+						"smallLabel":["大聚惠","领劵169元","免邮"]
+					}
+				]
+			]
+
+
+		},box);
+	}
+
+</script>
