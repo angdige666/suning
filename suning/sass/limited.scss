@@ -34,24 +34,139 @@ section {
 	height:60px;
 	margin:auto;
 	border-bottom:2px solid #F8264A;
-	background:greenyellow;
+	background:#F8F8F8;
+}
+.time_wraper {
+	position: relative;
+	width:100%;
+	height:100%;
+}
+.timeBox {
+	position: absolute;
+	width:1110px;
+	height: 100%;
+	margin-left: 40px;
+	overflow: hidden;
+}
+.time_wraper ul {
+	position: absolute;
+	width:2000px;
+	height:100%;
+	background: #fff;
+}
+.timeBox ul li {
+	float: left;
+	width: 156px;
+    height: 60px;
+    text-align: center;
+    padding-right: 5px;
+    // background: #fff;
+    background: pink;
+    font-size: 14px;
+    color: #333;
+    cursor: pointer;
+    font-family: 'PingFangSC-Medium';
+}
+ul li a {
+	display: block;
+    width: 156px;
+    height: 60px;
+    color:#333;
+    line-height: 60px;
+}
+.timeBox ul .first {
+	background: #FD5845;
+}
+.timeBox ul .first a {
+	color:#fff;
+	line-height: 20px;
+}
+.timeBox ul .first a span {
+	display: block;
+	margin-top: 5px;
+	height:25px;
+	font-size: 14px;
+	line-height: 25px;
+	// margin-right: 5px;
+	// background: pink;
+}
+.timeBox ul .first a p {
+	height:25px;
+	width:100%;
+	text-align: center;
+}
+.timeBox ul .first a p i {
+	float: left;
+	font-style: normal;
+	margin:0 2px;
+}
+.timeBox ul .first a p span {
+	float: left;
+	margin-top: 0px;
+	line-height: 25px;
+}
+.time-text {
+	margin-left: 25px;
+	margin-right: 5px;
+}
+.time_wraper .btnLeft {
+	position: absolute;
+	top:-8px;
+	left:-10px;
+	width:50px;
+	height:68px;
+	cursor: pointer;
+	background: url(../image/limited/arrow-left.png);
+}
+.time_wraper .btnRight {
+	position: absolute;
+	top:-8px;
+	right:-10px;
+	width:50px;
+	height:68px;
+	cursor: pointer;
+	background: url(../image/limited/arrow-right.png);
 }
 #sec_content {
 	width:1190px;
 	margin:10px auto 0;
 	overflow: hidden;
 }
-// #sec_content div {
-// 	float:left;
-// 	width:290px;
-// 	height:410px;
-// 	background-color: #fff;
-// 	margin-right: 10px;
-// 	margin-bottom: 10px;
-// }
-// #sec_content div:nth-child(4n) {
-// 	margin-right: 0px;
-// }
 
+/*底部*/
+footer {
+	width:100%;
+	background: #f8f8f8;
+}
+footer .footerBottom {
+	width:1490px;
+	height: 250px;
+	margin:auto;
+}
+footer .footerBottom .p1 {
+	height:25px;
+	margin:16px auto 0px;
+	font-size: 13px;
+	text-align: center;
+}
+footer .footerBottom .p1 a {
+	color: #666;
+	font-size: 13px;
+	line-height: 13px;
+	padding:11px;
+}
+footer .footerBottom .p1 a:hover {
+	color:red;
+	/*border-bottom: 1px solid red;*/
+}
+footer .footerBottom .bottomLogo {
+	/* width:100%; */
+	text-align: center;
+}
+footer .footerBottom .bottomLogo img {
+	width:95px;
+	height:30px;
+	margin-right: 14px;
+}
 
 
