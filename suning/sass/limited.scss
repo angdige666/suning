@@ -38,21 +38,20 @@ section {
 }
 #sec_content {
 	width:1190px;
-	height:1000px;
 	margin:10px auto 0;
-	background: purple;
+	overflow: hidden;
 }
-#sec_content div {
-	float:left;
-	width:290px;
-	height:410px;
-	background-color: #fff;
-	margin-right: 10px;
-	margin-bottom: 10px;
-}
-#sec_content div:nth-child(4n) {
-	margin-right: 0px;
-}
+// #sec_content div {
+// 	float:left;
+// 	width:290px;
+// 	height:410px;
+// 	background-color: #fff;
+// 	margin-right: 10px;
+// 	margin-bottom: 10px;
+// }
+// #sec_content div:nth-child(4n) {
+// 	margin-right: 0px;
+// }
 
 
 
